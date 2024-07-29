@@ -1,0 +1,68 @@
+.testing {
+    background-color: white;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.text {
+    width: 292px;
+    height: 30px;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 150%;
+    color: #1A2229;
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+    background-color: white;
+    margin-top: 40px;
+    margin-right: 12px;
+}
+
+.containerSwitch {
+    width: 40px;
+    height: 24px;
+    transform: rotate(-180deg);
+    flex: none;
+    order: 1;
+    flex-grow: 0;
+    background-color: #ffffff;
+    margin-top: 43px;
+    border: 0;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.switch {
+    background: #ffffff;
+    transform: rotate(-180deg);
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    margin: 2px;
+    position: absolute;
+    transition: left 0.3s ease;
+}
+
+.buttonSwitch {
+    width: 40px;
+    height: 24px;
+    background: #F4F5F7;
+    border-radius: 100px;
+    transform: rotate(-180deg);
+    display: flex;
+    justify-content: left;
+    position: absolute;
+}
+
+.switch.left {
+    left: 0;
+}
+
+.switch.right {
+    left: 16px;
+}
