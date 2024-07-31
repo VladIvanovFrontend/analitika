@@ -1,0 +1,51 @@
+@import "../../../styles/StatBoard.module.css";
+
+.hr {
+    width: 100%;
+    border: none;
+    border-top: 1px solid #ccc;
+}
+
+.calendarContainer {
+    height: 407px;
+    width: 320px;
+    box-shadow: 0 12px 32px rgba(33, 34, 36, 0.12);
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2px;
+    border-radius: 16px;
+    padding: 16px;
+    position: relative;
+}
+
+.textDate {
+    background-color: white;
+    max-width: 100%;
+    max-height: 100%;
+    font-family: Inter, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    display: flex;
+    align-items: center;
+    color: #1A2229;
+    margin: 10px 0;
+}
+
+.calendarOverlay {
+    position: absolute;
+    height: 320px;
+    top: 45px;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    background-color: white;
+    border-radius: 40px;
+}

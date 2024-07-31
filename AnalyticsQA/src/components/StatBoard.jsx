@@ -2,7 +2,6 @@ import React from 'react';
 import classes from '../styles/StatBoard.module.css'
 import CalendarButton from "./UI/button/calendarButton";
 import Board from "./UI/board/Board";
-import Calendar from "./UI/modal/Calendar";
 
 const StatBoard = () => {
     return (
